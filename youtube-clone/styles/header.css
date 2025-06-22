@@ -1,3 +1,25 @@
-.search-bar {
-  display: block;
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 45px;
+  justify-content: space-between;
+}
+
+
+.left-section {
+  background-color: lightblue;
+  width: 400px;
+}
+
+.middle-section {
+  background-color: lightpink;
+  max-width: 500px;
+  margin-left: 70px;
+  margin-right: 35px;
+  flex: 1;
+}
+
+.right-section {
+  background-color: lightblue;
+  width: 200px;
 }
