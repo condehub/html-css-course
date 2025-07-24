@@ -75,11 +75,40 @@
   border-radius: 20px;
   background-color: rgb(232, 232, 232);
 }
+
 .mic-icon {
   align-items: middle;
   padding-top: 2px;
 }
+
 .right-section {
-  background-color: lightblue;
-  width: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.upload-icon {
+  width: 24px;
+  margin-left: 32px;
+  margin-top: 6px;
+}
+
+.apps-icon {
+  width: 24px;
+  margin-left: 22px;
+  margin-top: 6px;
+}
+
+.notification-icon {
+  width: 24px;
+  margin-left: 22px;
+  margin-top: 6px;
+}
+
+.profile-icon {
+  height: 30px;
+  margin-left: 22px;
+  vertical-align: middle;
+  margin-top: 6px;
+  border-radius: 26px;
+  margin-right: 14px;
 }
