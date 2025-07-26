@@ -17,6 +17,7 @@
     height: 50px;
     text-align: center;
     align-content: center;
+    z-index: 1;
   ">
     HEADER
     </header>
@@ -34,16 +35,49 @@
   ">
     BORDER
     </header>
-    <div style="width: 200px;
-    height: 200px;
-    background-color: lightblue;
+
+    <div class="absolute-frame"
+    style="top: 70px;
+    left: 70px;
+    position: absolute;
+    width: 50px;
     text-align: center;
-    "> 200px;
+    z-index: 0;
+    background-color: plum;">
+      TEST
     </div>
 
     <div style="width: 200px;
-    height: 200px;
-    background-color: lightpink;
-    text-align: center;"> 200px;
+      height: 200px;
+      background-color: lightblue;
+      text-align: center;
+      "> VIDEO
+      <div class="absolute-frame"
+        style= "bottom: 10px;
+        right: 10px;
+        position: absolute;
+        width: 50px;
+        text-align: center;
+        z-index: 0;
+        background-color: plum;">
+        5:00
+      </div>
     </div>
-  </body>
+
+
+    <div style="width: 200px;
+      height: 200px;
+      background-color: lightpink;
+      text-align: center;">VIDEO
+      <div class="absolute-frame"
+        style=" bottom: 10px;
+        right: 10px;
+        position: absolute;
+        width: 50px;
+        text-align: center;
+        z-index: 0;
+        background-color: plum;">
+        5:00
+      </div>
+    </div>
+</body>
