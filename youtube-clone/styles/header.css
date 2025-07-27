@@ -1,18 +1,21 @@
 .header {
   height: 55px;
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   height: 50px;
+  z-index: 100;
+
   background-color: white;
   border-bottom-width: 0.5px;
   border-bottom-style: solid;
   border-color: rgb(228, 228, 228);
-  z-index: 2;
 }
 
 .left-section {
@@ -22,7 +25,6 @@
 
 .hamburger-menu {
   height: 24px;
-  width: 24px;
   margin-left: 10px;
 }
 
@@ -67,8 +69,6 @@
   margin-left: -8px;
   border-style: solid;
   border-radius: 2px;
-  box-shadow: inset 1px 2px 2px
-   rgba(0, 0, 0, 0.05);
   background-color: rgb(232, 232, 232);
 }
 
@@ -92,9 +92,12 @@
 }
 
 .right-section {
+  width: 180px;
+  margin-right: 30px; 
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
 }
 
 .upload-icon {
@@ -104,6 +107,7 @@
   opacity: 0.7;
 }
 
+
 .apps-icon {
   width: 24px;
   margin-left: 22px;
@@ -111,23 +115,22 @@
   opacity: 0.7;
 }
 
-.notification-icon-container {
-  display: block;
-  position: relative;
+.notification-icon {
+  height: 24px;
+  opacity: 0.7;
+  margin-top: 6px;
+  margin-left: 16px;
 }
 
-.notification-icon {
-  width: 24px;
-  height: 22px;
-  opacity: 0.7;
-  margin-left: 22px;
-  margin-top: 9px;
+
+.notifications-icon-conteiner {
+  position: relative;
 }
 
 .notifications-number {
   position: absolute;
-  right: 62px;
-  top: 12px;
+  right: -4px;
+  top: 2px;
   padding-top: 2px;
   padding-bottom: 2px;
   padding-left: 5px;
@@ -143,7 +146,6 @@
   height: 30px;
   margin-left: 22px;
   vertical-align: middle;
-  margin-top: 6px;
   border-radius: 26px;
   margin-right: 14px;
 }
