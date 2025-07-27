@@ -1,6 +1,6 @@
 .header {
   height: 55px;
-
+  position: fixed;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -10,7 +10,7 @@
   left: 0;
   right: 0;
   height: 50px;
-  z-index: 2;
+  z-index: 40;
 
   background-color: white;
   border-bottom-width: 0.5px;
@@ -123,7 +123,7 @@
 }
 
 
-.notifications-icon-conteiner {
+.notifications-icon-container {
   position: relative;
 }
 

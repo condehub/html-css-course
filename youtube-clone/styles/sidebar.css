@@ -2,9 +2,10 @@
   position: fixed;
   background-color: white;
   width: 60px;
-  top: 50.5px;
+  top: 40px;
   left: 0px;
   bottom: 0px;
+  z-index: 200;
 }
 
 .sidebar-link {
@@ -19,6 +20,7 @@
   transition: background-color 0.2s;
   text-align: center;
   cursor: pointer;
+  z-index: 3;
 }
 
 .sidebar-link:hover {
