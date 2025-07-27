@@ -12,6 +12,7 @@
   border-bottom-width: 0.5px;
   border-bottom-style: solid;
   border-color: rgb(228, 228, 228);
+  z-index: 2;
 }
 
 .left-section {
@@ -93,6 +94,7 @@
 .right-section {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .upload-icon {
@@ -109,14 +111,33 @@
   opacity: 0.7;
 }
 
+.notification-icon-container {
+  display: block;
+  position: relative;
+}
+
 .notification-icon {
   width: 24px;
   height: 22px;
   opacity: 0.7;
   margin-left: 22px;
-  margin-top: 6px;
+  margin-top: 9px;
 }
 
+.notifications-number {
+  position: absolute;
+  right: 62px;
+  top: 12px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+  font-family: Roboto, Arial;
+  font-size: 10px;
+  border-radius: 12px;
+  background-color: rgb(182, 6, 6);
+}
 
 .profile-icon {
   height: 30px;
