@@ -62,6 +62,9 @@
 }
 
 .search-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 34px;
   width: 50px;
   border-width: 1px;
@@ -74,21 +77,54 @@
 
 .search-icon {
   width: 26px;
+  justify-content: center;
+  align-items: center;
   vertical-align: middle;
 }
 
+
+.search-button, .mic-button {
+  position: relative;
+}
+
+.search-button .tooltip,
+.mic-button .tooltip {
+  position: absolute;
+  background-color: rgb(130, 130, 130);
+  color: white;
+  top: 40px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  border-radius: 2px;
+  font-size: 12px;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.search-button:hover .tooltip,
+.mic-button:hover .tooltip {
+  opacity: 1;
+}
+
 .mic-button {
-  height: 34px;
-  width: 34px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
   margin-left: 10px;
   border: none;
-  border-radius: 20px;
+  border-radius: 25px;
   background-color: rgb(232, 232, 232);
 }
 
 .mic-icon {
-  align-items: middle;
-  padding-top: 2px;
+  height: 24px;
 }
 
 .right-section {
