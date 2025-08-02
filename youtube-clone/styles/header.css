@@ -50,17 +50,24 @@
   flex: 1;
   background-color: rgb(255, 255, 255);
   border-style: solid;
-  border-width: 1px;
+  border-width: 0.5px;
   border-color: rgb(159, 159, 159);
   font-size: 14px;
   padding-left: 6px;
   border-radius: 2px;
   box-shadow: inset 1px 2px 2px rgba(0, 0, 0, 0.05);
+  transition: border 2s;
+}
+
+.search-bar:focus {
+  outline: 1.5px solid rgb(149, 149, 149);
+  outline-offset: -1px;
 }
 
 .search-bar::placeholder {
   font-size: 14px;
 }
+
 
 .search-button {
   display: flex;
