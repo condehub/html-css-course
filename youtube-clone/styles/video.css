@@ -19,11 +19,13 @@
 
 .thumbnail {
   width: 100%;
+  cursor: pointer;
 }
 
 .profile-picture {
   width: 36px;
   border-radius: 100%;
+  cursor: pointer;
 }
 
 .video-info-grid {
@@ -37,6 +39,7 @@
   font-weight: 500;
   line-height: 19px;
   margin-bottom: 12px;
+  cursor: pointer;
 }
 
 .video-author,
