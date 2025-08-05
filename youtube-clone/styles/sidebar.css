@@ -1,8 +1,8 @@
 .sidebar {
   position: fixed;
   background-color: white;
-  width: 60px;
-  top: 45px;
+  width: 80px;
+  top: 49.95px;
   left: 0px;
   bottom: 0px;
   z-index: 200;
@@ -12,11 +12,10 @@
 .sidebar-link {
   display: flex;
   flex-direction: column;
-  height:50px;
-  margin-top: 5px;
+  height: 70px;
   align-items: center;
   justify-content: center;
-  font-size: 8px;
+  font-size: 12px;
   transition: background-color 0.2s;
   text-align: center;
   cursor: pointer;
